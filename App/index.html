@@ -1,10 +1,209 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <title>My Static Web App</title>
-</head>
-<body>
-  <h1>Hello from Azure Static Web Apps 1!</h1>
-  <br>
-</body>
+ <head>
+  <title>
+   Steam Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="bg-gray-800 p-4 flex items-center justify-between">
+   <div class="flex items-center">
+    <img alt="Steam logo" class="mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/u9aLpyRwzKUOLiQtjpt4Z4d3rT6qPDpQqdLAwo-x-mM.jpg" width="40"/>
+    <span class="text-2xl font-bold">
+     STEAM
+    </span>
+   </div>
+   <nav class="flex space-x-4">
+    <a class="text-blue-400" href="#">
+     STORE
+    </a>
+    <a class="hover:text-gray-400" href="#">
+     COMMUNITY
+    </a>
+    <a class="hover:text-gray-400" href="#">
+     ABOUT
+    </a>
+    <a class="hover:text-gray-400" href="#">
+     SUPPORT
+    </a>
+   </nav>
+   <div class="flex items-center space-x-2">
+    <button class="bg-green-600 px-4 py-2 rounded">
+     Install Steam
+    </button>
+    <a class="hover:text-gray-400" href="#">
+     login
+    </a>
+    <a class="hover:text-gray-400" href="#">
+     language
+    </a>
+   </div>
+  </header>
+  <!-- Main Content -->
+  <div class="flex">
+   <!-- Sidebar -->
+   <aside class="bg-gray-800 p-4 w-64">
+    <div class="mb-4">
+     <h2 class="text-lg font-bold">
+      STEAM GIFT CARDS
+     </h2>
+     <p>
+      Give the Gift of Game
+     </p>
+     <img alt="Steam gift cards" height="100" src="https://storage.googleapis.com/a1aa/image/cV-7LNpmWF4b2-Hh9sf_I2npIEujjG1Lf0xcZ-mHTrw.jpg" width="100"/>
+    </div>
+    <div class="mb-4">
+     <h2 class="text-lg font-bold">
+      RECOMMENDED
+     </h2>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        By Friends
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        By Curators
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Tags
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="mb-4">
+     <h2 class="text-lg font-bold">
+      BROWSE CATEGORIES
+     </h2>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Top Sellers
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        New Releases
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Upcoming
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Specials
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        VR Titles
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Controller-Friendly
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Great on Deck
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h2 class="text-lg font-bold">
+      BROWSE BY GENRE
+     </h2>
+     <ul class="space-y-2">
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Free To Play
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Early Access
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Action
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Adventure
+       </a>
+      </li>
+     </ul>
+    </div>
+   </aside>
+   <!-- Main Section -->
+   <main class="flex-1 p-4">
+    <div class="bg-gray-700 p-4 rounded">
+     <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold">
+       FEATURED &amp; RECOMMENDED
+      </h2>
+      <div class="flex space-x-2">
+       <button class="text-gray-400">
+        <i class="fas fa-chevron-left">
+        </i>
+       </button>
+       <button class="text-gray-400">
+        <i class="fas fa-chevron-right">
+        </i>
+       </button>
+      </div>
+     </div>
+     <div class="flex">
+      <img alt="Featured game image" class="w-2/3 rounded" height="300" src="https://storage.googleapis.com/a1aa/image/WwLWcjtKzTMyGz8CipODQYCDylKo0ZbnrVUQ4IiLXL8.jpg" width="600"/>
+      <div class="w-1/3 pl-4">
+       <h3 class="text-lg font-bold">
+        R.E.P.O.
+       </h3>
+       <div class="grid grid-cols-2 gap-2 mb-2">
+        <img alt="Game screenshot 1" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/TlivOn1yMDHsy9K9Xh_jANfo5Vjpzsv3oboSfhB-8iI.jpg" width="100"/>
+        <img alt="Game screenshot 2" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/TQVmalT65kpNjxGXcxlOWc3UL5s0ak4Ro_wYT44e2cg.jpg" width="100"/>
+        <img alt="Game screenshot 3" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/dtEuZI_8QqGy-e5sc-0qgejadaUc7TU3LI9ikbyINj0.jpg" width="100"/>
+        <img alt="Game screenshot 4" class="rounded" height="100" src="https://storage.googleapis.com/a1aa/image/Eh2poExqn3SdIEpijBholalP_UK11t4EbqKobFhts2I.jpg" width="100"/>
+       </div>
+       <p class="mb-2">
+        Early Access Now Available
+       </p>
+       <span class="bg-gray-600 text-xs px-2 py-1 rounded">
+        Top Seller
+       </span>
+       <p class="mt-2">
+        142.000₫
+       </p>
+      </div>
+     </div>
+     <div class="flex justify-center mt-4">
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+      <div class="w-2 h-2 bg-gray-400 rounded-full mx-1">
+      </div>
+     </div>
+    </div>
+   </main>
+  </div>
+ </body>
 </html>
